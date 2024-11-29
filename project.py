@@ -1,0 +1,10 @@
+s={"a":5, "b":22, "c":50}
+print(s)
+print(s.get("a"))
+print(s.get("d"))
+print(s.keys())
+print("-----------------------------------",type(s.keys()))
+print(s.values())
+print("-----------------------------------",type(s.values()))
+print(list(s.items()))
+print("-----------------------------------",type(s.items()))
